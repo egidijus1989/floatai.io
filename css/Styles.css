@@ -1,6 +1,10 @@
 /*
 Base
 */
+* {
+    box-sizing: border-box; /* svarbi dalis, rodanti kad padding telpa boxe*/
+    list-style-type: none;
+}
 h1, h3 {
     text-align: center;
 }
@@ -18,4 +22,44 @@ header {
     height: 80px;
     padding: 10px;
     background-color: #95accf;
+}
+/*nav*/
+nav {
+    padding: 10px;
+    background-color: #aabbcc;
+}
+nav li {
+    display: inline-block;
+    border: 1px solid #000;
+    padding: 5px;
+    list-style-type: none;
+}
+nav li:hover {
+    background-color: rgb(38, 237, 12);
+}
+nav a {
+    text-decoration: none;
+}
+/*main*/
+main {
+    background-color: #88a3f4;
+    padding: 10px;
+}
+main aside {
+    width: 25%;
+    background-color: #9ac3ec;
+}
+main .content {
+    width: 50%;
+    background-color: #4b74ee;
+}
+main aside, main .content {
+    float: left;
+    padding: 50px;
+}
+/*footer*/
+footer {
+    text-align: center;
+    clear: both;
+    padding: 5px;
 }
