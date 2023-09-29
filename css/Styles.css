@@ -1,0 +1,21 @@
+/*
+Base
+*/
+h1, h3 {
+    text-align: center;
+}
+p {
+    font-size: 1.3em;
+}
+/*Layout*/
+.container {
+    width: 80%;
+    margin: 0% auto;
+    background-color: #eee;
+}
+/*Header*/
+header {
+    height: 80px;
+    padding: 10px;
+    background-color: #95accf;
+}
